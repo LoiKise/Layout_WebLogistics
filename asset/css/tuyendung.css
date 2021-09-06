@@ -1,0 +1,259 @@
+@charset "UTF-8";
+/*Header*/
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  padding-top: 1rem;
+  padding-bottom: 1.7rem;
+}
+.header img {
+  width: 98px;
+  height: 58px;
+  object-fit: cover;
+}
+.navbar {
+  display: flex;
+  gap: 0 8rem;
+}
+.navbar-item {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.navbar-item__link {
+  color: #fff;
+  transition: color 0.5s ease;
+}
+.navbar-item__link:hover {
+  color: #ff5e15;
+  transition: color 0.5s ease;
+}
+.account {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 6rem;
+}
+.account-personal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 1.4rem;
+}
+.account-personal img {
+  width: 4.8rem;
+  height: 4.8rem;
+  object-fit: cover;
+}
+.account-menu img {
+  width: 4.8rem;
+  height: 4.8rem;
+  object-fit: cover;
+}
+
+/* Tuyển Dụng*/
+.recruitment {
+  color: #fff;
+  background-image: linear-gradient(to right, #c91410, #ff5e15);
+}
+.recruitment-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.recruitment-title {
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 3.2rem;
+  margin-bottom: 2rem;
+  font-size: 3.6rem;
+}
+.recruitment-span {
+  margin-bottom: 6.6rem;
+  font-size: 1.8rem;
+}
+
+/* Công việc */
+.job-title {
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-top: 4.9rem;
+  margin-bottom: 3.6rem;
+}
+.job-item {
+  padding: 2.2rem;
+  background-color: #ffffe3;
+  box-shadow: 4px 4px 2px 2px #ccc;
+  width: 1000px;
+}
+.job-item:not(:last-child) {
+  margin-bottom: 5rem;
+}
+.job-item:last-child {
+  margin-bottom: 6.2rem;
+}
+.job-item-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+}
+.job-item-list {
+  display: grid;
+  grid-template-columns: 1.5fr 1.3fr 0.9fr 0.6fr;
+}
+.job-item-list-item {
+  display: flex;
+  align-items: center;
+}
+.job-item-list-item span {
+  margin-left: 1rem;
+  font-size: 1.4rem;
+}
+.job-item-btn {
+  padding: 1.6rem;
+  background-color: #56cb81;
+  border-radius: 1rem;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+/* Footer */
+.footer {
+  border-top: 1rem solid;
+  border-image: linear-gradient(to right, #c91410, #ff5e15) 10;
+}
+.footer-list {
+  display: flex;
+  margin-top: 7rem;
+  margin-bottom: 9rem;
+}
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3rem 0;
+  width: 25%;
+}
+.footer-item:first-child {
+  margin-right: 5.4rem;
+}
+.footer-item h2 {
+  position: relative;
+  font-size: 1.9rem;
+  font-weight: bold;
+  margin-top: 7rem;
+  text-transform: uppercase;
+}
+.footer-item h2::after {
+  content: "";
+  position: absolute;
+  background-color: #ff5e15;
+  top: 100%;
+  width: 50%;
+  left: 0;
+  height: 3px;
+}
+.footer-item p {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #606060;
+}
+.footer-item-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem 0;
+  margin-right: 2.4rem;
+}
+.footer-item-list-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2.4rem;
+}
+.footer-item-list-item__content {
+  display: flex;
+  flex-direction: column;
+}
+.footer-item-list-item__content p {
+  font-size: 1.8rem;
+  color: #000;
+}
+.footer-span {
+  color: #606060;
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+.footer-span:last-child {
+  font-weight: bold;
+  color: #000;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+.footer-bottom span:first-child svg {
+  width: 1.3rem;
+  height: 1.3rem;
+  margin-bottom: 1rem;
+}
+.footer-bottom span:nth-child(2) {
+  color: #606060;
+  font-weight: 600;
+  margin: 0 1rem;
+  font-size: 1.7rem;
+}
+.footer-bottom span:last-child {
+  font-weight: bold;
+  font-size: 2.2rem;
+}
+.footer-phone__title {
+  color: #39d42d;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.footer-mail__title {
+  color: #ee2529;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.footer-youtube__title {
+  color: #ee2529;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.footer-facebook__title {
+  color: #29aae3;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* Scroll Into View*/
+.scroll {
+  position: fixed;
+  bottom: 20rem;
+  right: 25rem;
+}
+
+.messenger {
+  position: fixed;
+  right: 3rem;
+  bottom: 40rem;
+}
+
+.zalo {
+  position: fixed;
+  right: 3rem;
+  bottom: 30rem;
+}
+
+/*# sourceMappingURL=style.css.map */

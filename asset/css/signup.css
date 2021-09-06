@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+p{
+    margin: 0 !important;
+}
+.signup{
+    padding: 10% !important;
+}
+.signup__social{
+    border-bottom: 1px solid #BEBEC0;
+    margin-bottom: 5%;
+}
+.signup__google, .signup__face {
+    width: 100%;
+    padding: 3%;
+    margin: 5% 0;
+    border: none;
+}
+.signup__google img, .signup__face img{
+    margin-right: 5%;
+}
+.form-control:focus{
+    border-color: #1DBFAF !important;
+    box-shadow: 0 0 0 0.2rem #1DBFAF !important;
+}
+.title__social{
+    text-align: center;
+    color: #BEBEC0;
+    padding-bottom: 10%;
+}
+.button__submit{
+    text-align: center;
+    margin: 5% 0;
+}
+.submit-form{
+    background-color: #1DBFAF;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    width: 40%;
+    height: 2.5rem;
+}
+.accept--rules{
+    text-align: center;
+    color: #BEBEC0;
+    padding-bottom: 5%;
+}
+.accept--rules a{
+    color: #BEBEC0;
+    text-decoration: underline;
+}
+.yes--account{
+    text-align: center;
+    color: #BEBEC0;
+}
+.yes--account a{
+    color: #1DBFAF;
+    font-weight: bold;
+}
+@media screen and (min-width: 768px){
+    .signup{
+        padding: 2% 20% !important;
+    }
+    .signup__form{
+        padding: 5% 10% !important;
+        border: 1px solid #BEBEC0 ;
+    }   
+    .submit-form{
+        width: 25%;
+    }
+}

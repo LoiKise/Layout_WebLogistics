@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+p {
+  margin: 0 !important;
+}
+body {
+  background-color: #f4f7f2;
+}
+.row {
+}
+.col {
+  border-radius: 30px;
+  padding: 5%;
+  background-color: #fff;
+}
+.personal--left .personal--title {
+  background-color: #fee1d3;
+  color: #fe621b;
+  width: 80%;
+  height: 3rem;
+  border-radius: 5px;
+  line-height: 3rem;
+  margin: 0 auto 10%;
+  font-weight: 500;
+  font-size: 1.25rem;
+  box-shadow: 0px 2px #bebec0;
+}
+
+.personal--left .infor--changepass {
+  text-decoration: underline;
+  color: #bebec0;
+  font-size: 0.9rem;
+}
+
+.personal--right .order--title {
+  background-color: #fee1d3;
+  color: #fe621b;
+  width: 80%;
+  height: 3rem;
+  border-radius: 5px;
+  line-height: 3rem;
+  margin: 0 auto 5%;
+  font-weight: 500;
+  font-size: 1.25rem;
+  text-align: center;
+  box-shadow: 0px 2px #bebec0;
+}
+
+.personal--right .order-content {
+  width: 100%;
+}
+
+.personal--right .order--details {
+  background-color: #ffffe3;
+  padding: 2% 0;
+  text-align: center;
+  margin: 0 3% 3%;
+  box-shadow: 3px 3px #bebec0;
+}
+
+.personal--right .order--seen {
+  background-color: #52ca7e;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 2%;
+  height: 2rem;
+  width: 30%;
+  font-size: 0.75rem;
+}
+
+@media screen and (min-width: 768px) {
+  .personal--right .order--title {
+    width: 35%;
+  }
+  .personal--left {
+    margin: 0 3%;
+  }
+  .personal--right .order--details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .personal--right .order-content {
+    width: 50%;
+  }
+  .personal--right .order--seen {
+    height: 2.5rem;
+    width: 17%;
+  }
+}

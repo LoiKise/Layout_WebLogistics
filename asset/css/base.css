@@ -1,0 +1,93 @@
+:root {
+  --gradient-color-from: #c91410;
+  --gradient-color-to: #ff5e15;
+  --section-background-color: #f9f9f9;
+}
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+  behavior: scroll;
+  height: 400vh;
+}
+.wrapper {
+  overflow: hidden;
+}
+
+.section-area {
+  height: 800px;
+  padding: 20px 0;
+  width: 100%;
+  position: relative;
+  word-wrap: break-word;
+  background-color: var(--section-background-color);
+}
+.section__top {
+  text-align: center;
+}
+.section__top span {
+  color: var(--gradient-color-to);
+  font-size: 2rem;
+  font-weight: 700;
+  position: relative;
+}
+.section__top span::before {
+  position: absolute;
+  top: 50%;
+  right: calc(100% + 29.5px);
+  content: "";
+  width: 40.5px;
+  height: 1.7px;
+  background-color: var(--gradient-color-to);
+}
+.section__top span::after {
+  position: absolute;
+  top: 50%;
+  left: calc(100% + 29.5px);
+  content: "";
+  width: 40.5px;
+  height: 1.7px;
+  background-color: var(--gradient-color-to);
+}
+.section__top-header {
+  font-size: 5rem;
+  margin-top: 10px;
+  font-weight: 900;
+  line-height: 6rem;
+  text-transform: capitalize;
+}
+.section__top-note {
+  font-size: 1.7rem;
+  font-weight: 900;
+  opacity: 0.6;
+  margin-top: 10px;
+}
+
+.section-area__btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 74px;
+}
+
+.section-area__btn button {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 238px;
+  height: 64px;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #1f2c8c;
+  color: white;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.section-area__btn button:focus {
+  outline: none;
+}
+
+.section-area__btn-icon {
+  height: 18px;
+}
